@@ -15,7 +15,12 @@
 
 body {
     transition: background-color .5s;
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.8;
 }
+
 .offcanvas2 {
     display: none;
     height: 100%;
