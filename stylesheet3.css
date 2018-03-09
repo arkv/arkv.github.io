@@ -14,11 +14,10 @@
 }
 
 body {
-    transition: background-color .5s;
-	background-image: url("bg.jpg");
+    background-image: url("c.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	opacity: 0.8;
+    transition: background-color .5s;
 }
 
 .offcanvas2 {
@@ -46,11 +45,19 @@ body {
     transition: .5s;
     padding-top: 60px;
 }
+
+.offcanvas::after {
+ 	background-image: url("a.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .offcanvas a,.offcanvas2 a {
-    padding: 8px 8px 8px 32px;
+    padding: 15px 8px 8px 32px;
     text-decoration: none !important;
-    font-size: 25px;
-    color: #818181;
+    font-size: 2em;
+	font-family: Indie Flower;
+	font-stretch: expanded;
+    color: orange;
     display: block;
     transition: .3s
 }
