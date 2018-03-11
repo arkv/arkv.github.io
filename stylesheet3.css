@@ -1,14 +1,14 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(12, auto);
-  grid-template-rows: repeat(12, auto);
+  grid-template-columns: '. . . .';
+  grid-template-rows: '. . . .';
   justify-content: space-evenly;
   grid-gap: 10px;
   padding: 10px;
 }
 
 h1 {	
-	grid-area: 1 / 8 / 3 / 10;
+	grid-area: 1 / 2 / 3 / 4;
     background-color: #8c7523;
 	border-style: ridge;
 	border-radius: 10px;
@@ -18,8 +18,12 @@ h1 {
 
 }
 
+h1:hover {
+	opacity:0.8;
+}
+
 .txt {
-	grid-area: 3 / 8 / 4 / 10;
+	grid-area: 3 / 2 / 4 / 5;
 	background-color: #8c7523;
 	border-style: ridge;
 	border-radius: 10px;
