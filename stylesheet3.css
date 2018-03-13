@@ -12,15 +12,7 @@ header {
 	text-align: center;
 }
 
-.content img {
-  display: block;
-  height: 200px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header h1 {
+h1.headfont {
   font-size: 4em;
   font-family: Mina;
   color: Azure ;
@@ -81,8 +73,8 @@ li a {
 .content {
   grid-column: 2 / 6;
   grid-row: -1 / -1; 
-  padding-top: 20px;
-  padding-bottom: 500px;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 
@@ -159,8 +151,8 @@ a:hover:after, a:focus:after {
 
 
 @media screen and (max-width: 600px) {
-  	.headfont = p {
-		font-size: 2em;
+  	.headfont {
+		: 2em;
 	}
   .topnav.responsive {position: relative;}
   .topnav.responsive li a.icon {
