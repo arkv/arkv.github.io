@@ -4,7 +4,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; 
-	padding: 16vw 2em;
+	padding: 14vw;
 	text-align: center;
 }
 
@@ -118,9 +118,11 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-    header h1 {
-		font-size: 2.5em;
-	
+    header {
+	padding: 15vh 	
+}
+	header h1 {
+	font-size: 2em;
 }
 */
 
