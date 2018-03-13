@@ -3,16 +3,21 @@ header {
 	background-image: url("d.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 15vw 2em;
+	background-position: center; 
+	padding: 16vw 2em;
 	text-align: center;
-	background-position: relative;
 }
 
 header h1 {
-  color: tomato;
+  color: Linen ;
   top: 10%;
-  font-size: 2.5em;
+  font-size: 4em;
   font-weight: 400;
+}
+
+#web{
+	 color: indigo;
+	 margin: 0;
 }
 
 #navbar{
