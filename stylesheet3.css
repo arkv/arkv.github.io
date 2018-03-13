@@ -28,6 +28,14 @@ p {
   text-align: center;
 }
 
+.content img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #web{
 	 color:NavajoWhite ;
 	 margin: 0;
